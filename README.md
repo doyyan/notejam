@@ -18,5 +18,4 @@ A demo project to show feature for Terraform. It can be used as a template to cr
 [![vpc.jpg](https://i.postimg.cc/tJF0kkZ3/vpc.jpg)](https://postimg.cc/9wXNFGB0)
 
 ## Multiple deployments with No Downtime
-
-[![codepipeline.jpg](https://i.postimg.cc/DZ2bnpFZ/codepipeline.jpg)](https://postimg.cc/gwT0KDxF)
+[![bluegreen.png](https://i.postimg.cc/BnTT3KDm/bluegreen.png)](https://postimg.cc/LJsYBhxP)
