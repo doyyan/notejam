@@ -1,0 +1,12 @@
+
+docker build -t 824431064955.dkr.ecr.eu-west-1.amazonaws.com/myapp:1 .
+
+aws ecr get-login-password --region eu-west-1 | docker login --username AWS --password-stdin 824431064955.dkr.ecr.eu-west-1.amazonaws.com
+
+aws ecr create-repository \
+    --repository-name myapp \
+    --image-scanning-configuration scanOnPush=true \
+    --region eu-west-1
+
+docker tag 824431064955.dkr.ecr.eu-west-1.amazonaws.com/myapp:1 8824431064955.dkr.ecr.eu-west-1.amazonaws.com/myapp:1
+docker push 824431064955.dkr.ecr.eu-west-1.amazonaws.com/myapp:1
