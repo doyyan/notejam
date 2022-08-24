@@ -23,4 +23,7 @@ variable "ECS_AMIS" {
   }
 }
 
+variable "RDS_PASSWORD" {
+}
+
 # Full List: http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html
